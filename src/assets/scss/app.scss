@@ -1,0 +1,23 @@
+@import'~bootstrap/dist/css/bootstrap.css';
+
+.app {
+    &-logo {
+        display: inline-block;
+        margin-bottom: 35px;
+        padding-top: 30px;
+        &__img {
+            vertical-align: middle;
+        }
+    }
+}
+
+label {
+    cursor: pointer;
+}
+
+.form {
+    margin-bottom: 25px;
+    &-submit {
+        cursor: pointer;
+    }
+}
